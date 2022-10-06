@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:outlineSpotShadowColor="@color/white"
+        app:cardBackgroundColor="#C6C190"
+        app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="FillForm"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <EditText
+            android:id="@+id/edttxt1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="text"
+            android:gravity="center"
+            android:hint="Name"
+            android:background="@null"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <EditText
+            android:id="@+id/edttxt2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="text"
+            android:gravity="center"
+            android:background="@null"
+            android:hint="Designation"
+            android:drawableLeft="@drawable/ic_baseline_support_24"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <EditText
+            android:id="@+id/edttxt3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:gravity="center"
+            android:hint="Email"
+            android:background="@null"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <EditText
+            android:id="@+id/edttxt4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="phone"
+            android:gravity="center"
+            android:hint="Number"
+            android:background="@null"
+            android:drawableLeft="@drawable/ic_baseline_smartphone_24"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        />
+
+        <EditText
+            android:id="@+id/edttxt5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:hint="Password"
+            android:background="@null"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Submit"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
